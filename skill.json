@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-structured-output-enforcer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - JSON Schema output validation enforcer.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "schema",
+    "validation"
+  ],
+  "inputs": {
+    "json_output": {
+      "type": "string"
+    },
+    "schema": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "is_valid": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
